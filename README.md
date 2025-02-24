@@ -55,7 +55,11 @@
 ## MIL
 ### Plant
 <a id='86a6xcb9t'></a>
-#### Tunning of generic inner loop PID
+##### Tunning of generic inner loop PID
+<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
+Platform: MIL | Component: Plant | Time spent: 1m
+</div>
+Description:
 teste
 
 
