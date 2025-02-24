@@ -54,6 +54,7 @@
 
 ### MIL
 #### Plant
+<a id='86a6xcb9t'></a>
 ##### Tunning of generic inner loop PID
 **Time spent:** 1m
 **Platform:** MIL
@@ -63,6 +64,7 @@
 
 
 
+<a id='86a6xccjf'></a>
 ##### Make ground-truth available
 **Time spent:** 
 **Platform:** MIL
@@ -70,6 +72,7 @@
 **Description:** Disponibilizar ground-truth
 
 
+<a id='86a6xcd7r'></a>
 ##### Finalize plant component
 **Time spent:** 
 **Platform:** MIL
@@ -77,6 +80,7 @@
 **Description:** finalizar bloco da planta
 
 
+<a id='86a6xcdxm'></a>
 ##### Create linear models for futher systems identification and inner loop PID gains tuning
 **Time spent:** 
 **Platform:** MIL
@@ -84,6 +88,7 @@
 **Description:** Criar os modelos lineares para identificação e ajuste dos ganhos PID
 
 
+<a id='86a6xd1k7'></a>
 ##### Identify linear model based on real drone experiments
 **Time spent:** 
 **Platform:** MIL
@@ -91,6 +96,7 @@
 **Description:** Levantar modelo linear com base em experimentos com drone real
 
 
+<a id='86a6xdjdr'></a>
 ##### Adjust inner loop PID based on real drones experiments
 **Time spent:** 
 **Platform:** MIL
@@ -98,6 +104,7 @@
 **Description:** Ajustar controladores com base no hardware
 
 
+<a id='86a6xdjv8'></a>
 ##### Compare model identified with other real experiments
 **Time spent:** 
 **Platform:** MIL
@@ -105,6 +112,7 @@
 **Description:** Comparar o modelo corrigido com experimentos reais 
 
 
+<a id='86a6xdp45'></a>
 ##### Create operation states for possible control (taking-off, landed, landing, etc)
 **Time spent:** 
 **Platform:** MIL
@@ -112,6 +120,7 @@
 **Description:** Criar estados de operação para possível controle (voando, pousado, taking off, etc)
 
 
+<a id='86a6xegnc'></a>
 ##### Verify if model's interface matches with real hardware
 **Time spent:** 
 **Platform:** MIL
@@ -120,6 +129,7 @@
 
 
 #### Sensor
+<a id='86a6xe7cj'></a>
 ##### Create IMU model
 **Time spent:** 
 **Platform:** MIL
@@ -127,6 +137,7 @@
 **Description:** Criar modelo de IMU
 
 
+<a id='86a6xe8eb'></a>
 ##### Create barometer model
 **Time spent:** 
 **Platform:** MIL
@@ -134,6 +145,7 @@
 **Description:** Criar modelo de barômetro
 
 
+<a id='86a6xekhk'></a>
 ##### Create camera model
 **Time spent:** 
 **Platform:** MIL
@@ -142,6 +154,7 @@
 
 
 #### Localization
+<a id='86a6xerkw'></a>
 ##### Simulate tag localization package
 **Time spent:** 
 **Platform:** MIL
@@ -149,6 +162,7 @@
 **Description:** Localização por tag
 
 
+<a id='86a6xetmy'></a>
 ##### Simulate opt-track localization package
 **Time spent:** 
 **Platform:** MIL
@@ -156,6 +170,7 @@
 **Description:** Opt-track
 
 
+<a id='86a6xev6b'></a>
 ##### Simulate ORB-SLAM package
 **Time spent:** 
 **Platform:** MIL
@@ -163,6 +178,7 @@
 **Description:** ORB-SLAM
 
 
+<a id='86a6xewb4'></a>
 ##### Investigate machine learning techniques for localization
 **Time spent:** 
 **Platform:** MIL
@@ -171,6 +187,7 @@
 
 
 #### Control
+<a id='86a6xf114'></a>
 ##### Implement PID position control
 **Time spent:** 
 **Platform:** MIL
@@ -179,6 +196,7 @@
 
 
 
+<a id='86a6xf1r3'></a>
 ##### Implement LQR position control
 **Time spent:** 
 **Platform:** MIL
@@ -186,6 +204,7 @@
 **Description:** LQR
 
 
+<a id='86a6xf3ta'></a>
 ##### Implement Model Preditive Control
 **Time spent:** 
 **Platform:** MIL
@@ -193,6 +212,7 @@
 **Description:** MPC
 
 
+<a id='86a6xf81u'></a>
 ##### Investigate machine learning technique for control
 **Time spent:** 
 **Platform:** MIL
@@ -201,6 +221,7 @@
 
 
 #### Path planning
+<a id='86a6xfu20'></a>
 ##### React to gesture commands
 **Time spent:** 
 **Platform:** MIL
@@ -208,6 +229,7 @@
 **Description:** Reagir a comandos visuais ou gestuais
 
 
+<a id='86a6xfv5x'></a>
 ##### React to auditive commands
 **Time spent:** 
 **Platform:** MIL
@@ -215,6 +237,7 @@
 **Description:** Reagir a comandos auditivos
 
 
+<a id='86a6xfvrb'></a>
 ##### investigate object detection techniques
 **Time spent:** 
 **Platform:** MIL
@@ -222,6 +245,7 @@
 **Description:** Implementar técnica de identificação de objetos
 
 
+<a id='86a6xfw1u'></a>
 ##### Investigate object search for techniques
 **Time spent:** 
 **Platform:** MIL
@@ -231,6 +255,7 @@
 
 ### SIL
 #### Plant
+<a id='86a6xguax'></a>
 ##### Create robot description
 **Time spent:** 
 **Platform:** SIL
@@ -238,6 +263,7 @@
 **Description:** Create robot description
 
 
+<a id='86a6xguge'></a>
 ##### Create gazebo plugin based on MIL plant model
 **Time spent:** 
 **Platform:** SIL
@@ -245,6 +271,7 @@
 **Description:** Create gazebo plugin based on MIL plant model
 
 
+<a id='86a6xgutf'></a>
 ##### Compare experiments with MIL and real experiments
 **Time spent:** 
 **Platform:** SIL
@@ -253,6 +280,7 @@
 
 
 #### Sensor
+<a id='86a6xgum9'></a>
 ##### Add IMU sensor gazebo plugins to robot
 **Time spent:** 
 **Platform:** SIL
@@ -260,6 +288,7 @@
 **Description:** Add sensor gazebo plugins to robot
 
 
+<a id='86a6xgxuz'></a>
 ##### Add barometer sensor gazebo plugin to robot
 **Time spent:** 
 **Platform:** SIL
@@ -267,6 +296,7 @@
 **Description:** Add barometer sensor gazebo plugin to robot
 
 
+<a id='86a6xgxyc'></a>
 ##### Add camera sensor gazebo plugin to robot
 **Time spent:** 
 **Platform:** SIL
@@ -276,6 +306,7 @@
 
 ### HIL
 #### Plant
+<a id='86a6xh29e'></a>
 ##### Summarize available interface with Tello Drone
 **Time spent:** 
 **Platform:** HIL
@@ -283,6 +314,7 @@
 **Description:** Summarize available interface with Tello Drone
 
 
+<a id='86a6xh2eh'></a>
 ##### Create basic interface to send and receive commands from/to the drone
 **Time spent:** 
 **Platform:** HIL
@@ -290,6 +322,7 @@
 **Description:** Create basic interface to send and receive commands from/to the drone
 
 
+<a id='86a6xh2m8'></a>
 ##### Define experiments to model identification
 **Time spent:** 
 **Platform:** HIL
@@ -297,6 +330,7 @@
 **Description:** Define experiments to model identification
 
 
+<a id='86a6xh2t8'></a>
 ##### Apply model identification experiments and save data
 **Time spent:** 
 **Platform:** HIL
