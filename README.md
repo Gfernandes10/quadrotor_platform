@@ -2,8 +2,8 @@
 
 ## General Overview
 
-### MIL (Model-in-the-loop)
-#### Plant
+## MIL (Model-in-the-loop)
+### Plant
 - 🔵 (planned) - [Tunning of generic inner loop PID](#86a6xcb9t)
 - 🔵 (planned) - [Make ground-truth available](#86a6xccjf)
 - 🔵 (planned) - [Finalize plant component](#86a6xcd7r)
@@ -13,38 +13,38 @@
 - ⚪ (Open) - [Compare model identified with other real experiments](#86a6xdjv8)
 - ⚪ (Open) - [Create operation states for possible control (taking-off, landed, landing, etc)](#86a6xdp45)
 - ⚪ (Open) - [Verify if model's interface matches with real hardware](#86a6xegnc)
-#### Sensor
+### Sensor
 - ⚪ (Open) - [Create IMU model](#86a6xe7cj)
 - ⚪ (Open) - [Create barometer model](#86a6xe8eb)
 - ⚪ (Open) - [Create camera model](#86a6xekhk)
-#### Localization
+### Localization
 - ⚪ (Open) - [Simulate tag localization package](#86a6xerkw)
 - ⚪ (Open) - [Simulate opt-track localization package](#86a6xetmy)
 - ⚪ (Open) - [Simulate ORB-SLAM package](#86a6xev6b)
 - ⚪ (Open) - [Investigate machine learning techniques for localization](#86a6xewb4)
-#### Control
+### Control
 - ⚪ (Open) - [Implement PID position control](#86a6xf114)
 - ⚪ (Open) - [Implement LQR position control](#86a6xf1r3)
 - ⚪ (Open) - [Implement Model Preditive Control](#86a6xf3ta)
 - ⚪ (Open) - [Investigate machine learning technique for control](#86a6xf81u)
-#### Path planning
+### Path planning
 - ⚪ (Open) - [React to gesture commands](#86a6xfu20)
 - ⚪ (Open) - [React to auditive commands](#86a6xfv5x)
 - ⚪ (Open) - [investigate object detection techniques](#86a6xfvrb)
 - ⚪ (Open) - [Investigate object search for techniques](#86a6xfw1u)
 
-### SIL (Software-in-the-loop)
-#### Plant
+## SIL (Software-in-the-loop)
+### Plant
 - ⚪ (Open) - [Create robot description](#86a6xguax)
 - ⚪ (Open) - [Create gazebo plugin based on MIL plant model](#86a6xguge)
 - ⚪ (Open) - [Compare experiments with MIL and real experiments](#86a6xgutf)
-#### Sensor
+### Sensor
 - ⚪ (Open) - [Add IMU sensor gazebo plugins to robot](#86a6xgum9)
 - ⚪ (Open) - [Add barometer sensor gazebo plugin to robot](#86a6xgxuz)
 - ⚪ (Open) - [Add camera sensor gazebo plugin to robot](#86a6xgxyc)
 
-### HIL (Hardware-in-the-loop)
-#### Plant
+## HIL (Hardware-in-the-loop)
+### Plant
 - ⚪ (Open) - [Summarize available interface with Tello Drone](#86a6xh29e)
 - ⚪ (Open) - [Create basic interface to send and receive commands from/to the drone](#86a6xh2eh)
 - ⚪ (Open) - [Define experiments to model identification](#86a6xh2m8)
@@ -52,327 +52,221 @@
 
 ## Summary
 
-## MIL
+## MIL (Model-in-the-loop)
 ### Plant
 <a id='86a6xcb9t'></a>
-##### Tunning of generic inner loop PID
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Plant | Time spent: 1m
-</div>
-Description:
+#### <ins>Tunning of generic inner loop PID</ins>
+###### Platform: MIL | Component: Plant | Time spent: 1m
 teste
 
 
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Plant | Time spent: 1m
-</div>
-
 <a id='86a6xccjf'></a>
-#### Make ground-truth available
+#### <ins>Make ground-truth available</ins>
+###### Platform: MIL | Component: Plant | Time spent: 
 Disponibilizar ground-truth
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xcd7r'></a>
-#### Finalize plant component
+#### <ins>Finalize plant component</ins>
+###### Platform: MIL | Component: Plant | Time spent: 
 finalizar bloco da planta
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xcdxm'></a>
-#### Create linear models for futher systems identification and inner loop PID gains tuning
+#### <ins>Create linear models for futher systems identification and inner loop PID gains tuning</ins>
+###### Platform: MIL | Component: Plant | Time spent: 
 Criar os modelos lineares para identificação e ajuste dos ganhos PID
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xd1k7'></a>
-#### Identify linear model based on real drone experiments
+#### <ins>Identify linear model based on real drone experiments</ins>
+###### Platform: MIL | Component: Plant | Time spent: 
 Levantar modelo linear com base em experimentos com drone real
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xdjdr'></a>
-#### Adjust inner loop PID based on real drones experiments
+#### <ins>Adjust inner loop PID based on real drones experiments</ins>
+###### Platform: MIL | Component: Plant | Time spent: 
 Ajustar controladores com base no hardware
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xdjv8'></a>
-#### Compare model identified with other real experiments
+#### <ins>Compare model identified with other real experiments</ins>
+###### Platform: MIL | Component: Plant | Time spent: 
 Comparar o modelo corrigido com experimentos reais 
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xdp45'></a>
-#### Create operation states for possible control (taking-off, landed, landing, etc)
+#### <ins>Create operation states for possible control (taking-off, landed, landing, etc)</ins>
+###### Platform: MIL | Component: Plant | Time spent: 
 Criar estados de operação para possível controle (voando, pousado, taking off, etc)
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xegnc'></a>
-#### Verify if model's interface matches with real hardware
+#### <ins>Verify if model's interface matches with real hardware</ins>
+###### Platform: MIL | Component: Plant | Time spent: 
 Verify if model's interface matches with real hardware
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Plant | Time spent: 
-</div>
-
 ### Sensor
 <a id='86a6xe7cj'></a>
-#### Create IMU model
+#### <ins>Create IMU model</ins>
+###### Platform: MIL | Component: Sensor | Time spent: 
 Criar modelo de IMU
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Sensor | Time spent: 
-</div>
-
 <a id='86a6xe8eb'></a>
-#### Create barometer model
+#### <ins>Create barometer model</ins>
+###### Platform: MIL | Component: Sensor | Time spent: 
 Criar modelo de barômetro
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Sensor | Time spent: 
-</div>
-
 <a id='86a6xekhk'></a>
-#### Create camera model
+#### <ins>Create camera model</ins>
+###### Platform: MIL | Component: Sensor | Time spent: 
 Create camera model
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Sensor | Time spent: 
-</div>
-
 ### Localization
 <a id='86a6xerkw'></a>
-#### Simulate tag localization package
+#### <ins>Simulate tag localization package</ins>
+###### Platform: MIL | Component: Localization | Time spent: 
 Localização por tag
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Localization | Time spent: 
-</div>
-
 <a id='86a6xetmy'></a>
-#### Simulate opt-track localization package
+#### <ins>Simulate opt-track localization package</ins>
+###### Platform: MIL | Component: Localization | Time spent: 
 Opt-track
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Localization | Time spent: 
-</div>
-
 <a id='86a6xev6b'></a>
-#### Simulate ORB-SLAM package
+#### <ins>Simulate ORB-SLAM package</ins>
+###### Platform: MIL | Component: Localization | Time spent: 
 ORB-SLAM
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Localization | Time spent: 
-</div>
-
 <a id='86a6xewb4'></a>
-#### Investigate machine learning techniques for localization
+#### <ins>Investigate machine learning techniques for localization</ins>
+###### Platform: MIL | Component: Localization | Time spent: 
 Investigar técnicas avançadas de ML para localização
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Localization | Time spent: 
-</div>
-
 ### Control
 <a id='86a6xf114'></a>
-#### Implement PID position control
+#### <ins>Implement PID position control</ins>
+###### Platform: MIL | Component: Control | Time spent: 
 PID
 
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Control | Time spent: 
-</div>
-
 <a id='86a6xf1r3'></a>
-#### Implement LQR position control
+#### <ins>Implement LQR position control</ins>
+###### Platform: MIL | Component: Control | Time spent: 
 LQR
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Control | Time spent: 
-</div>
-
 <a id='86a6xf3ta'></a>
-#### Implement Model Preditive Control
+#### <ins>Implement Model Preditive Control</ins>
+###### Platform: MIL | Component: Control | Time spent: 
 MPC
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Control | Time spent: 
-</div>
-
 <a id='86a6xf81u'></a>
-#### Investigate machine learning technique for control
+#### <ins>Investigate machine learning technique for control</ins>
+###### Platform: MIL | Component: Control | Time spent: 
 Tecnica de Machine Learning?
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Control | Time spent: 
-</div>
-
 ### Path planning
 <a id='86a6xfu20'></a>
-#### React to gesture commands
+#### <ins>React to gesture commands</ins>
+###### Platform: MIL | Component: Path planning | Time spent: 
 Reagir a comandos visuais ou gestuais
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Path planning | Time spent: 
-</div>
-
 <a id='86a6xfv5x'></a>
-#### React to auditive commands
+#### <ins>React to auditive commands</ins>
+###### Platform: MIL | Component: Path planning | Time spent: 
 Reagir a comandos auditivos
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Path planning | Time spent: 
-</div>
-
 <a id='86a6xfvrb'></a>
-#### investigate object detection techniques
+#### <ins>investigate object detection techniques</ins>
+###### Platform: MIL | Component: Path planning | Time spent: 
 Implementar técnica de identificação de objetos
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Path planning | Time spent: 
-</div>
-
 <a id='86a6xfw1u'></a>
-#### Investigate object search for techniques
+#### <ins>Investigate object search for techniques</ins>
+###### Platform: MIL | Component: Path planning | Time spent: 
 Implementar técnica de procurar por objeto
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: MIL | Component: Path planning | Time spent: 
-</div>
-
-## SIL
+## SIL (Software-in-the-loop)
 ### Plant
 <a id='86a6xguax'></a>
-#### Create robot description
+#### <ins>Create robot description</ins>
+###### Platform: SIL | Component: Plant | Time spent: 
 Create robot description
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: SIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xguge'></a>
-#### Create gazebo plugin based on MIL plant model
+#### <ins>Create gazebo plugin based on MIL plant model</ins>
+###### Platform: SIL | Component: Plant | Time spent: 
 Create gazebo plugin based on MIL plant model
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: SIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xgutf'></a>
-#### Compare experiments with MIL and real experiments
+#### <ins>Compare experiments with MIL and real experiments</ins>
+###### Platform: SIL | Component: Plant | Time spent: 
 Compare experiments with MIL and real experiments
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: SIL | Component: Plant | Time spent: 
-</div>
-
 ### Sensor
 <a id='86a6xgum9'></a>
-#### Add IMU sensor gazebo plugins to robot
+#### <ins>Add IMU sensor gazebo plugins to robot</ins>
+###### Platform: SIL | Component: Sensor | Time spent: 
 Add sensor gazebo plugins to robot
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: SIL | Component: Sensor | Time spent: 
-</div>
-
 <a id='86a6xgxuz'></a>
-#### Add barometer sensor gazebo plugin to robot
+#### <ins>Add barometer sensor gazebo plugin to robot</ins>
+###### Platform: SIL | Component: Sensor | Time spent: 
 Add barometer sensor gazebo plugin to robot
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: SIL | Component: Sensor | Time spent: 
-</div>
-
 <a id='86a6xgxyc'></a>
-#### Add camera sensor gazebo plugin to robot
+#### <ins>Add camera sensor gazebo plugin to robot</ins>
+###### Platform: SIL | Component: Sensor | Time spent: 
 Add camera sensor gazebo plugin to robot
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: SIL | Component: Sensor | Time spent: 
-</div>
-
-## HIL
+## HIL (Hardware-in-the-loop)
 ### Plant
 <a id='86a6xh29e'></a>
-#### Summarize available interface with Tello Drone
+#### <ins>Summarize available interface with Tello Drone</ins>
+###### Platform: HIL | Component: Plant | Time spent: 
 Summarize available interface with Tello Drone
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: HIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xh2eh'></a>
-#### Create basic interface to send and receive commands from/to the drone
+#### <ins>Create basic interface to send and receive commands from/to the drone</ins>
+###### Platform: HIL | Component: Plant | Time spent: 
 Create basic interface to send and receive commands from/to the drone
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: HIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xh2m8'></a>
-#### Define experiments to model identification
+#### <ins>Define experiments to model identification</ins>
+###### Platform: HIL | Component: Plant | Time spent: 
 Define experiments to model identification
 
 
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: HIL | Component: Plant | Time spent: 
-</div>
-
 <a id='86a6xh2t8'></a>
-#### Apply model identification experiments and save data
+#### <ins>Apply model identification experiments and save data</ins>
+###### Platform: HIL | Component: Plant | Time spent: 
 Apply model identification experiments and save data
 
-
-<div style='color: gray; font-size: 0.8em; margin-bottom: 10px;'>
-Platform: HIL | Component: Plant | Time spent: 
-</div>
 
