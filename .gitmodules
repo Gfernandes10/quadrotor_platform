@@ -1,0 +1,3 @@
+[submodule "MIL/MIL_tello_platform"]
+	path = MIL/MIL_tello_platform
+	url = git@github.com:Gfernandes10/MIL_tello_platform.git
