@@ -1,0 +1,72 @@
+"Task ID","Task Name","Status","Task Content","Assignee","Priority","Latest Comment","Comment Count","Assigned Comment Count","Due Date","Start Date","Date Created","Date Updated","Date Closed","Date Done","Created By","Space","Folder","List","Subtask ID's","Subtask URL's","tags","Lists","Sprints","Linked Tasks","Linked Docs","Time Logged","Time Logged Rolled Up","Time Estimate","Time Estimate Rolled Up","Points Estimate","Points Estimate Rolled Up","Notes (text)","Platform (labels)"
+"86a6xcb9t","Tunning of generic inner loop PID","planned","teste
+
+
+","[]","none","",0,0,"","","Monday, February 24th 2025, 1:31:33 pm -03:00","Monday, February 24th 2025, 3:31:38 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, plant]","[quadrotor_platform]","[]","","","1m","1m","","",,0,"","[MIL]"
+"86a6xccjf","Make ground-truth available","planned","Disponibilizar ground-truth
+","[]","none","",0,0,"","","Monday, February 24th 2025, 1:32:50 pm -03:00","Monday, February 24th 2025, 3:10:54 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xcd7r","Finalize plant component","planned","finalizar bloco da planta
+","[]","none","",0,0,"","","Monday, February 24th 2025, 1:33:31 pm -03:00","Monday, February 24th 2025, 3:11:14 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xcdxm","Create linear models for futher systems identification and inner loop PID gains tuning","planned","Criar os modelos lineares para identificação e ajuste dos ganhos PID
+","[]","none","",0,0,"","","Monday, February 24th 2025, 1:34:17 pm -03:00","Monday, February 24th 2025, 3:05:34 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xd1k7","Identify linear model based on real drone experiments","Open","Levantar modelo linear com base em experimentos com drone real
+","[]","none","",0,0,"","","Monday, February 24th 2025, 1:51:57 pm -03:00","Monday, February 24th 2025, 3:11:59 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xdjdr","Adjust inner loop PID based on real drones experiments","Open","Ajustar controladores com base no hardware
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:06:54 pm -03:00","Monday, February 24th 2025, 3:12:19 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xdjv8","Compare model identified with other real experiments","Open","Comparar o modelo corrigido com experimentos reais 
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:07:18 pm -03:00","Monday, February 24th 2025, 3:12:39 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xdp45","Create operation states for possible control (taking-off, landed, landing, etc)","Open","Criar estados de operação para possível controle (voando, pousado, taking off, etc)
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:10:46 pm -03:00","Monday, February 24th 2025, 3:13:16 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xe7cj","Create IMU model","Open","Criar modelo de IMU
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:25:31 pm -03:00","Monday, February 24th 2025, 3:13:25 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, sensor]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xe8eb","Create barometer model","Open","Criar modelo de barômetro
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:26:02 pm -03:00","Monday, February 24th 2025, 3:13:33 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, sensor]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xegnc","Verify if model's interface matches with real hardware","Open","Verify if model's interface matches with real hardware
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:31:08 pm -03:00","Monday, February 24th 2025, 2:51:31 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xekhk","Create camera model","Open","Create camera model
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:32:32 pm -03:00","Monday, February 24th 2025, 2:51:31 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, sensor]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xerkw","Simulate tag localization package","Open","Localização por tag
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:35:13 pm -03:00","Monday, February 24th 2025, 2:51:31 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[localization, mil]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xetmy","Simulate opt-track localization package","Open","Opt-track
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:35:45 pm -03:00","Monday, February 24th 2025, 2:51:31 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[localization, mil]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xev6b","Simulate ORB-SLAM package","Open","ORB-SLAM
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:36:32 pm -03:00","Monday, February 24th 2025, 2:51:31 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[localization, mil]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xewb4","Investigate machine learning techniques for localization","Open","Investigar técnicas avançadas de ML para localização
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:37:09 pm -03:00","Monday, February 24th 2025, 2:51:31 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[localization, mil]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xf114","Implement PID position control","Open","PID
+
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:40:01 pm -03:00","Monday, February 24th 2025, 2:51:31 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[control, mil]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xf1r3","Implement LQR position control","Open","LQR
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:40:26 pm -03:00","Monday, February 24th 2025, 2:51:31 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[control, mil]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xf3ta","Implement Model Preditive Control","Open","MPC
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:41:26 pm -03:00","Monday, February 24th 2025, 2:51:31 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[control, mil]","[quadrotor_platform]","[]","","","","","","",,0,"","[MIL]"
+"86a6xf81u","Investigate machine learning technique for control","Open","Tecnica de Machine Learning?
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:43:30 pm -03:00","Monday, February 24th 2025, 2:51:31 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[control, mil]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xfu20","React to gesture commands","Open","Reagir a comandos visuais ou gestuais
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:54:56 pm -03:00","Monday, February 24th 2025, 2:55:19 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, path planning]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xfv5x","React to auditive commands","Open","Reagir a comandos auditivos
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:56:05 pm -03:00","Monday, February 24th 2025, 2:56:12 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, path planning]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xfvrb","investigate object detection techniques","Open","Implementar técnica de identificação de objetos
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:56:36 pm -03:00","Monday, February 24th 2025, 3:27:46 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, path planning]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xfw1u","Investigate object search for techniques","Open","Implementar técnica de procurar por objeto
+","[]","none","",0,0,"","","Monday, February 24th 2025, 2:56:56 pm -03:00","Monday, February 24th 2025, 3:27:46 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[mil, path planning]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xguax","Create robot description","Open","Create robot description
+","[]","none","",0,0,"","","Monday, February 24th 2025, 3:19:31 pm -03:00","Monday, February 24th 2025, 3:28:12 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[plant, sil]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xguge","Create gazebo plugin based on MIL plant model","Open","Create gazebo plugin based on MIL plant model
+","[]","none","",0,0,"","","Monday, February 24th 2025, 3:19:38 pm -03:00","Monday, February 24th 2025, 3:28:12 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[plant, sil]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xgum9","Add IMU sensor gazebo plugins to robot","Open","Add sensor gazebo plugins to robot
+","[]","none","",0,0,"","","Monday, February 24th 2025, 3:19:44 pm -03:00","Monday, February 24th 2025, 3:28:28 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[sensor, sil]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xgutf","Compare experiments with MIL and real experiments","Open","Compare experiments with MIL and real experiments
+","[]","none","",0,0,"","","Monday, February 24th 2025, 3:19:50 pm -03:00","Monday, February 24th 2025, 3:28:12 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[plant, sil]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xgxuz","Add barometer sensor gazebo plugin to robot","Open","Add barometer sensor gazebo plugin to robot
+","[]","none","",0,0,"","","Monday, February 24th 2025, 3:22:13 pm -03:00","Monday, February 24th 2025, 3:28:28 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[sensor, sil]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xgxyc","Add camera sensor gazebo plugin to robot","Open","Add camera sensor gazebo plugin to robot
+","[]","none","",0,0,"","","Monday, February 24th 2025, 3:22:19 pm -03:00","Monday, February 24th 2025, 3:28:28 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[sensor, sil]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xh29e","Summarize available interface with Tello Drone","Open","Summarize available interface with Tello Drone
+","[]","none","",0,0,"","","Monday, February 24th 2025, 3:25:41 pm -03:00","Monday, February 24th 2025, 3:28:54 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[hil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xh2eh","Create basic interface to send and receive commands from/to the drone","Open","Create basic interface to send and receive commands from/to the drone
+","[]","none","",0,0,"","","Monday, February 24th 2025, 3:25:48 pm -03:00","Monday, February 24th 2025, 3:28:54 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[hil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xh2m8","Define experiments to model identification","Open","Define experiments to model identification
+","[]","none","",0,0,"","","Monday, February 24th 2025, 3:25:56 pm -03:00","Monday, February 24th 2025, 3:28:54 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[hil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"",""
+"86a6xh2t8","Apply model identification experiments and save data","Open","Apply model identification experiments and save data
+","[]","none","",0,0,"","","Monday, February 24th 2025, 3:26:02 pm -03:00","Monday, February 24th 2025, 3:28:54 pm -03:00","","","Gabriel de Souza Fernandes","2025","hidden","quadrotor_platform","[]","[]","[hil, plant]","[quadrotor_platform]","[]","","","","","","",,0,"",""
