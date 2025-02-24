@@ -21,42 +21,42 @@ def organize_tasks(tasks):
             organized_tasks[platform][component].append(task)
     return organized_tasks
 
+# Função para definir o emoji do status
+def get_status_emoji(status):
+    if status.lower() == "open":
+        return "⚪"  # Cinza
+    elif status.lower() in ["planned", "in progress"]:
+        return "🔵"  # Azul
+    elif status.lower() == "done":
+        return "🟢"  # Verde
+    else:
+        return "⚫"  # Preto (default)
+
 # Função para gerar o conteúdo do README.md
 def generate_readme(organized_tasks):
     readme_content = "# Quadrotor Platform Project\n\n"
     readme_content += "## General Overview\n\n"
     
-    # Função para definir a cor do status
-    def get_status_color(status):
-        if status.lower() == "open":
-            return "gray"
-        elif status.lower() in ["planned", "in progress"]:
-            return "blue"
-        elif status.lower() == "done":
-            return "green"
-        else:
-            return "black"
-    
     # General Overview
     for platform, components in organized_tasks.items():
-        readme_content += f"### {platform.upper()} ({'Model-in-the-loop' if platform == 'mil' else 'Software-in-the-loop' if platform == 'sil' else 'Hardware-in-the-loop'})\n"
+        readme_content += f"## {platform.upper()} ({'Model-in-the-loop' if platform == 'mil' else 'Software-in-the-loop' if platform == 'sil' else 'Hardware-in-the-loop'})\n"
         for component, tasks in components.items():
-            readme_content += f"#### {component.capitalize()}\n"
+            readme_content += f"### {component.capitalize()}\n"
             for task in tasks:
                 task_name = task['Task Name']
                 task_status = task['Status']
                 task_id = task['Task ID']
-                # Adiciona cor ao status
-                status_color = get_status_color(task_status)
-                readme_content += f"- [{task_name}](#{task_id}) - <span style='color:{status_color};'>{task_status}</span>\n"
+                # Adiciona emoji e status ao nome da task
+                status_emoji = get_status_emoji(task_status)
+                readme_content += f"- {status_emoji} ({task_status}) - [{task_name}](#{task_id})\n"
         readme_content += "\n"
     
     # Summary
     readme_content += "## Summary\n\n"
     for platform, components in organized_tasks.items():
-        readme_content += f"### {platform.upper()}\n"
+        readme_content += f"## {platform.upper()} ({'Model-in-the-loop' if platform == 'mil' else 'Software-in-the-loop' if platform == 'sil' else 'Hardware-in-the-loop'})\n"
         for component, tasks in components.items():
-            readme_content += f"#### {component.capitalize()}\n"
+            readme_content += f"### {component.capitalize()}\n"
             for task in tasks:
                 task_name = task['Task Name']
                 task_id = task['Task ID']
@@ -64,15 +64,12 @@ def generate_readme(organized_tasks):
                 task_content = task['Task Content']
                 # Seção da task no Summary com o ID como âncora
                 readme_content += f"<a id='{task_id}'></a>\n"
-                readme_content += f"##### {task_name}\n"
+                # Nome da task sublinhado
+                readme_content += f"#### <ins>{task_name}</ins>\n"
                 # Cabeçalho com informações da task
-                readme_content += f"<div style='color: gray; font-size: 0.9em; margin-bottom: 10px;'>\n"
-                readme_content += f"<strong>Platform:</strong> {platform.upper()} | "
-                readme_content += f"<strong>Component:</strong> {component.capitalize()} | "
-                readme_content += f"<strong>Time spent:</strong> {time_logged}\n"
-                readme_content += "</div>\n"
+                readme_content += f"###### Platform: {platform.upper()} | Component: {component.capitalize()} | Time spent: {time_logged}\n"
                 # Descrição da task
-                readme_content += f"**Description:**\n{task_content}\n\n"
+                readme_content += f"{task_content}\n\n"
     
     return readme_content
 
